@@ -1,29 +1,7 @@
 {
 	"name": "test-adapter-converter",
 	"displayName": "Test Adapter Converter",
-	"version": "0.0.1",
-	"private": false,
 	"description": "Converter extension from the Test Adapter UI to native VS Code testing",
-	"keywords": [
-		"codeeditorland",
-		"land",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandTestAdapterConverter#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandTestAdapterConverter/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandTestAdapterConverter.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
-		"email": "Source/Open@Editor.Land",
-		"url": "HTTPS://Editor.Land"
-	},
-	"type": "module",
 	"main": "./out/extension.js",
 	"scripts": {
 		"build": "npm run -S esbuild-base -- --sourcemap",
@@ -66,9 +44,6 @@
 		"@playform/build": "0.2.3",
 		"esbuild": "0.25.2",
 		"rimraf": "6.0.1"
-	},
-	"publishConfig": {
-		"access": "public"
 	},
 	"capabilities": {
 		"untrustedWorkspaces": {
